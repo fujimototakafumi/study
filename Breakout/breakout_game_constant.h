@@ -1,0 +1,30 @@
+﻿#pragma once
+#define BALL_SIZE 5
+#define BALL_SPEED 5
+#define BAR_SPEED 10
+#define BAR_WIDTH 100
+#define BAR_HEIGHT 10
+#define BLOCK_NUM 11
+#define FIELD_START_X 20
+#define FIELD_START_Y 0
+#define FIELD_WIDTH (460 - FIELD_START_X)
+#define FIELD_HEIGHT (480 - FIELD_START_Y)
+
+#define WINDOW_WIDTH 640
+#define WINDOW_HEIGHT 480
+
+#define PLAYER_NUM 2
+#define ADD_SCORE 500
+#define LEVELUP_VAL 1000
+
+enum GameState {
+	NONE = 0,
+	READY,
+	START,
+	RESTART,
+	PLAY,
+	PLAYER_DEAD,
+	CLEAR,
+	GAME_OVER,
+	END
+};
