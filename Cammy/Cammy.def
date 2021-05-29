@@ -1,0 +1,56 @@
+; ________________________________
+;| Cammy by Phantom.of.the.Server |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<DEFINITION>====================
+[Info]
+name        = "Cammy"
+displayname = "Cammy"
+versiondate = 01,12,2010
+mugenversion= 1.0
+author      = "Phantom.of.the.Server"
+pal.defaults= 1,5,6,4,2,3,10,11,12,7,8,9
+localcoord  = 320,240
+
+[Files]
+cmd     = Command.cmd
+cns     = Constants.cns
+st      = States/System.st
+st1     = States/Normal.st
+st2     = States/Special.st
+st3     = States/Super.st
+st4     = States/Helpers.st
+stcommon= common1.cns
+sprite  = Sprite.sff
+anim    = Anim.air
+sound   = Sound.snd
+;ai      = ai.ai
+pal1    = Palettes/01.act
+pal2    = Palettes/02.act
+pal3    = Palettes/03.act
+pal4    = Palettes/04.act
+pal5    = Palettes/05.act
+pal6    = Palettes/06.act
+pal7    = Palettes/01.act
+pal8    = Palettes/02.act
+pal9    = Palettes/03.act
+pal10   = Palettes/04.act
+pal11   = Palettes/05.act
+pal12   = Palettes/06.act
+
+[Palette Keymap]
+a = 1
+b = 2
+c = 3
+x = 4
+y = 5
+z = 6
+a2 = 7
+b2 = 8
+c2 = 9
+x2 = 10
+y2 = 11
+z2 = 12
+
+[Arcade]
+intro.storyboard = data/char/cammy.def
+;ending.storyboard= ending.def
