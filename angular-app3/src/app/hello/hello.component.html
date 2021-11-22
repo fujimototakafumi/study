@@ -1,0 +1,20 @@
+<div id="body">
+<h1>{{title}}</h1>
+<p>{{message}}</p>
+<form [formGroup]="myControl" (ngSubmit)="onSubmit()">
+    <table>
+        <tr><th>Name</th><td>
+            <input type="text" name="name" ngModel>
+        </td></tr>
+        <tr><th>Mail</th><td>
+            <input type="text" name="mail" ngModel>
+        </td></tr>
+        <tr><th>age</th><td>
+            <input type="number" name="age" ngModel>
+        </td></tr>
+        <tr><th></th><td>
+            <input type="submit" value="click">
+        </td></tr>
+    </table>
+</form>
+</div>

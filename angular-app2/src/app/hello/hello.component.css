@@ -1,0 +1,21 @@
+#body{
+    margin-top:75px;
+}
+h1{
+font-size:60pt;
+letter-spacing: -5px;
+color:lightblue;
+position: absolute;
+top:-70px;
+right:0x;
+}
+p{
+    font-size:18pt;
+}
+.red{
+    color: white;
+    background-color:red;
+}
+.thin{color: #999;}
+.large{font-size:30pt;}
+.frame{border:solod 2px red;}
